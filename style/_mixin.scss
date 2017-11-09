@@ -1,0 +1,144 @@
+/*resize*/
+
+$tablet: 768px;
+$desktop: 1024px;
+
+@mixin tablet() {
+	@media (min-width: $tablet) {
+		@content;
+	}
+}
+
+@mixin desktop() {
+	@media (min-width: $desktop) {
+		@content;
+	}
+}
+
+/*animation for caruzel mobile*/
+
+@keyframes caruzel_1_mobile{
+			0%{	
+				transform:  translateX(0);
+				
+			}
+			50%{
+					transform: translateX(170%) 
+					translateY(50%) 
+					scale(3);
+			}
+
+			100%{
+					transform: scale(1);
+			}
+
+		}
+
+		@keyframes caruzel_2_mobile{
+			0%{	
+				
+				transform: translateX(0%);		
+			}
+			50%{
+					transform: scale(1.6) translateY(30%);
+			}
+
+			100%{
+					transform: translateX(0%);
+			}
+
+		}
+
+		@keyframes caruzel_3_mobile{
+			0%{	
+				
+				transform: translateX(0%);
+				
+
+			}
+			50%{
+					transform: translateX(-170%)
+					translateY(-30%)
+					scale(1.4);
+				
+
+			}
+
+			100%{
+					transform: scale(1) translateX(0%) translateY(0%);
+			}
+
+		}
+
+
+
+/*animation for caruzel*/
+
+@keyframes caruzel_1{
+			0%{	
+				transform:  translateX(0);
+				
+			}
+			50%{
+					transform: translateX(170%) 
+					translateY(50%) 
+					scale(2);
+			}
+
+			100%{
+					transform: scale(1);
+			}
+
+		}
+	
+		@keyframes caruzel_2{
+			0%{	
+				
+				transform: translateX(0%);		
+			}
+			50%{
+					transform: scale(3) translateX(20%);
+			}
+
+			100%{
+					transform: translateX(0%);
+			}
+
+		}
+
+
+	@keyframes caruzel_3{
+			0%{	
+				
+				transform: translateX(0%);
+						
+			}
+			50%{
+					transform: translateX(-190%)
+						translateY(-80%)
+						scale(2);
+						
+			}
+
+			100%{
+					transform: scale(1);
+					
+			}
+
+		}
+
+/* animation of arrow */
+
+@keyframes arrow-go{
+	0%{	
+			transform: translateY(30px);
+	}
+	50%{
+		transform: translateY(0px);	
+			
+	}
+
+	100%{
+			transform: translateY(-30px);
+	}
+}
