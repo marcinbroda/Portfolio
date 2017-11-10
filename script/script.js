@@ -1,4 +1,3 @@
-
 ( function() {
 	
 	/*scrolowanie nawigacji*/
@@ -115,7 +114,7 @@ var form = document.querySelector("#myForm"),
 		if (errors.length > 0) {
 		 	displayErrors(errors);
 		} else {
-			form.submit();
+			alert("Przepraszamy, brak obsuługi danych w skrypcie PHP")/*form.submit();*/
 		}
 
 	},false)
