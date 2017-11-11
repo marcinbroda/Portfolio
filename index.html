@@ -2,10 +2,24 @@
 <html lang="pl">
 <head>
 	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<meta name="keywords" content="marcin, broda, portfolio, junior fron-end">
+	<meta name="robots" content="index">
 	<meta charset="utf-8">
-	<meta content="desctripton" name="Agencja Detektywistyzna">
+	<meta content="desctripton" name="Prywatne portfolio">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109420036-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-109420036-1');
+	</script>
+	<meta property="og:locale" content="pl_PL">
+	<meta property="og:type" content="website">
+	<link rel="canonical" href="http://mbroda.pl/">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Griffy" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
@@ -21,7 +35,7 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="#aboutMe" class="trans" >O sobie</a></li>
+					<li><a href="#aboutMe" class="trans link_aboutMe" >O sobie</a></li>
 					<li><a href="#projects" class="trans" >Projekty</a></li>
 					<li><a href="#kontakt" class="trans" >Kontakt</a></li>
 				</ul>		
@@ -31,11 +45,11 @@
 	<section>
 		<div class="wrapper">
 			<div class="box-caruzel">
-				<p class="caruzel_1">Java Script</p>
-				<p class="caruzel_2">Jquery</p>
-				<p class="caruzel_2">Css</p>
+				<p class="caruzel_1">JavaScript</p>
+				<p class="caruzel_2">JQuery</p>
+				<p class="caruzel_2">CSS</p>
 				<p class="caruzel_3">Sass</p>
-				<p class="caruzel_3">Html</p>
+				<p class="caruzel_3">HTML</p>
 			</div>
 		</div>
 	</section>
@@ -43,8 +57,8 @@
 		<div class="wrapper">
 			<div class="accordion">
 				<div class="box-accordion">
-					 <h3 class="accordion_title">O sobie <i class="fa fa-times" aria-hidden="true"></i></h3>
-					 <p class="accordion_text">Cześć,<br>
+					 <h3 class="accordion_title accordion_title_about">O sobie <i class="fa fa-times" aria-hidden="true"></i></h3>
+					 <p class="accordion_text ">Cześć,<br>
 						Mam na imię Marcin. Interesuje się tworzeniem stron internetowych oraz aplikacji webowych. Swoją przygodę rozpocząłem parę miesięcy temu od kursów z eduweb.pl. Codziennie stawiam czoła nowym wyzwaniom, staram się uczyć czegoś nowego oraz ulepszać swój kod.
 						Obecnie realizuję projekty, zgłębiam wiedzę na temat Javascript oraz staram się wykorzystywać ją w praktyce.
 						Obecnie przerabiam kurs biblioteki Jquery. Szukam pierwszej pracy na stanowisku junior front-end developer, która da mi możliwośc dalszego rozwoju. 
@@ -54,15 +68,15 @@
 				<div class="box-accordion2">
 					<h3 class="accordion_title">Opis projektów<i class="fa fa-times" aria-hidden="true"></i></h3>
 					 <p class="accordion_text">
-					 	Projekty ułożone są chronoligicznie, wraz z moją nabytą wiedzą dodawałem na bieżąco nowo poznane umiejętnośći. Tak więc pierwszy projekt powstał z czystego css-a bez dodatku wspomagaczy typu: sass;
-					 	i bez użycia media queris.Drugi projekt powstał z wykorzystaniem Java Script i wtrąceniem jQuery.
-					 	 Trzeci projekt jest już wpełni zakodowany przez preprocesor SASS i wykodnymi mixinami. Uwzględniona lepsza praca z jQuery, która jest szybsza i płynniejsza. Ostatnie projekty jest to czytsta zabawa z jQuery, ulepszanie poszczególnych aplikacji.
+					 	Projekty ułożone są chronoloigicznie, wraz z moją nabytą wiedzą dodawałem na bieżąco nowo poznane umiejętnośći. Tak więc pierwszy projekt powstał z czystego css-a bez dodatku wspomagaczy typu: sass;
+					 	i bez użycia media queris. Drugi projekt powstał z wykorzystaniem Java Script i wtrąceniem jQuery.
+					 	 Trzeci projekt jest już wpełni zakodowany przez preprocesor SASS i wykodnymi mixinami. Uwzględniona lepsza praca z jQuery, która jest szybsza i płynniejsza. Ostatnie projekty jest to czysta zabawa z jQuery, ulepszanie poszczególnych aplikacji.
 					</p>
 				</div>
 				<div class="box-accordion3">
-					<h3 class="accordion_title">Junior front end developer<i class="fa fa-times" aria-hidden="true"></i></h3>
+					<h3 class="accordion_title">Junior Front-end Developer<i class="fa fa-times" aria-hidden="true"></i></h3>
 					 <p class="accordion_text">
-						Jak wyżej szukam swojej pierwszej pracy jako Junior front end developer. Chciałbym bardziej upsrawnić swoją pracę cennymi wskazówkami od starszych stażem, oczekuję też pomocy przy rozwiązywaniu problemów. Poszukuję pracy w kórej będę mógł zdobywać doświadczenie i poznawać nowe technologie.
+						Jak wyżej, szukam swojej pierwszej pracy jako Junior Front-end Developer. Chciałbym bardziej usprawnić swoją pracę cennymi wskazówkami od starszych stażem.Pragnę polepszyć swój warsztat Front-end Developera wykonując komercyjne projekty pod okiem doświadczonych programistów Front-end. Poszukuję pracy w kórej będę mógł zdobywać doświadczenie i poznawać nowe technologie.
 					</p>
 				</div>
 			</div>
@@ -73,43 +87,43 @@
 			<h3 class="title-projekt">Projekty:</h3>
 			<div class="projects">
 				<div class="projects-div">	
-					<img src="../img/garbage.jpg" alt="">
+					<a target="_blank" href="http://www.mbroda.pl/projekt1"><img src="../img/garbage.jpg" alt=""></a>
 					<div class="links">
-						<a href="http://www.mbroda.pl/projekt1" class="link-img">Live</a>
+						<a target="_blank" href="http://www.mbroda.pl/projekt1" class="link-img">Live</a>
 						<div class="arrow">
 							<i class="fa fa-angle-up" aria-hidden="true"></i>
 						</div>
-						<a href="" class="link-img">GitHub</a>
+						<a target="_blank" href="https://github.com/marcinbroda/strona-www-z-kursu-html" class="link-img">GitHub</a>
 					</div>
 				</div>
 				<div class="projects-div">
-					<img src="../img/bar.jpg" alt="">
+					<a target="_blank" href="http://www.mbroda.pl/projekt2"><img src="../img/bar.jpg" alt=""></a>
 					<div class="links">
-						<a href="http://www.mbroda.pl/projekt2" class="link-img">Live</a>
+						<a target="_blank" href="http://www.mbroda.pl/projekt2" class="link-img">Live</a>
 						<div class="arrow">
 							<i class="fa fa-angle-up" aria-hidden="true"></i>
 						</div>
-						<a href="" class="link-img">GitHub</a>
+						<a target="_blank" href="https://github.com/marcinbroda/BaruJana" class="link-img">GitHub</a>
 					</div>
 				</div>
 				<div class="projects-div">
-					<img src="../img/box.jpg" alt="">
+					<a target="_blank" href="http://www.mbroda.pl/projekt3"><img src="../img/box.jpg" alt=""></a>
 					<div class="links">
-						<a href="http://www.mbroda.pl/projekt3" class="link-img">Live</a>
+						<a target="_blank" href="http://www.mbroda.pl/projekt3" class="link-img">Live</a>
 						<div class="arrow">
 							<i class="fa fa-angle-up" aria-hidden="true"></i>
 						</div>
-						<a href="" class="link-img">GitHub</a>
+						<a target="_blank" href="https://github.com/marcinbroda/BoxDetektwistyczny" class="link-img">GitHub</a>
 					</div>
 				</div>
 				<div class="projects-div">
-					<img src="../img/lotek.jpg" alt="">
+					<a target="_blank" href="http://www.mbroda.pl/projekt4"><img src="../img/lotek.jpg" alt=""></a>
 					<div class="links">
-						<a href="http://www.mbroda.pl/projekt4" class="link-img">Live</a>
+						<a target="_blank" href="http://www.mbroda.pl/projekt4" class="link-img">Live</a>
 						<div class="arrow">
 							<i class="fa fa-angle-up" aria-hidden="true"></i>
 						</div>
-						<a href="" class="link-img">GitHub</a>
+						<a target="_blank" href="https://github.com/marcinbroda/losowanie-lotto" class="link-img">GitHub</a>
 					</div>
 				</div>
 			</div>
@@ -120,17 +134,17 @@
 			<div class="flex">
 				<div class="contact_data">
 					<h3>Kontakt:</h3>
-					<p><i class="fa fa-phone" aria-hidden="true"></i>+48 510 510 510</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i>+48 504 693 984</p>
 					<p><i class="fa fa-envelope" aria-hidden="true"></i>broda.marcin92@gmail.com</p>
-					<p><i class="fa fa-facebook" aria-hidden="true"></i> www.facebook.pl/mbroda9288</p>
+					<p><i class="fa fa-facebook" aria-hidden="true"></i>www.facebook.com/marcin.broda.90</p>
 				</div>
 				<div class="contact">
 					<h2>Formularz kontaktowy:</h2>
-					<form id="myForm" method="post" action="boleklech@gmail.com">
-						<input type="text" name="your-name" placeholder="imię i nazwisko" data-error="Podaj imię i nazwisko" class="required">
-						<input type="text" name="your-email" placeholder="adres e-mail" data-error="Podaj poprawny adres email">
+					<form id="myForm" method="post" action="">
+						<input type="text" name="your-name" placeholder="Imię i nazwisko" data-error="Podaj imię i nazwisko" class="required">
+						<input type="text" name="your-email" placeholder="Adres e-mail" data-error="Podaj poprawny adres email">
 						<textarea placeholder="Treść wiaomości" data-error="Wpisz treść wiadomości" ></textarea>
-						<input type="text" name="your-phone" placeholder="Telefon(opcjonalnie)">
+						<input type="text" name="your-phone" placeholder="Telefon (opcjonalnie)">
 						<button type="submit">Wyślij</button>
 					</form>
 				</div>
