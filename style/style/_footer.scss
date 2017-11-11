@@ -1,0 +1,44 @@
+
+.footer{
+			display: flex;
+			flex-direction: column;
+			background-color: black;
+			text-align: center;
+
+
+				@include tablet{
+					flex-direction: row;
+					justify-content: space-between;	
+				}
+
+	.design{
+			margin:0 auto;
+			display: inline-block;
+			font-size: 1.5em;
+			text-align: right;
+			color: #fff;
+			padding:10px;	
+			@include tablet{
+				margin:0;
+				padding: 20px;
+			}
+	}
+
+
+	.copy_box{
+
+		.copy{
+			color: #fff;
+			padding: 10px;
+			font-size: 1.5em;
+
+			@include tablet{
+
+				padding:20px;
+			}
+		}
+
+	}
+
+	
+}

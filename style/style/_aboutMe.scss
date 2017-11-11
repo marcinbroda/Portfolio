@@ -1,0 +1,68 @@
+.aboutMe{
+		padding-top: 20px;
+		margin-bottom:50px;
+}
+
+
+.accordion{
+
+		.box-accordion2{
+			width: 100%;
+
+			@include tablet{
+				width: 80%;
+			}
+		}
+
+		.box-accordion3{
+			width: 100%;
+
+			@include tablet {
+				width: 60%;
+			}
+		}		
+
+
+		.accordion_title{
+				font-size: 2em;
+				cursor: pointer;
+				font-family: roboto;
+				color:black;
+				border: solid grey;
+				padding: 10px;
+				position: relative;
+				margin-top: 5px;
+				border-radius: 8px;
+
+				.fa-times{
+					position: absolute;
+					right: 0px;
+					top: 0px;
+					padding: 13px;
+					background-color: grey;
+					color: #fff;
+				}
+				.active{
+					display: block;
+				}
+		}
+
+		.accordion_title_active{
+					background-color: rgba(158, 158, 158, 0.3);
+				}
+
+
+
+
+		.accordion_text{
+			font-size: 1.7em;
+			font-family: 'Lato', sans-serif;
+			padding: 15px;
+			border: 1px solid grey;
+			border-top: none;
+			margin-bottom: 10px;
+			line-height: 1.4em;
+		}
+
+
+}

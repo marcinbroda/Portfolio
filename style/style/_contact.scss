@@ -1,0 +1,93 @@
+.flex{
+		display: flex;
+		flex-direction: column;
+		border-top: dashed;
+		margin-top: 20px;
+
+	@include tablet{
+		
+		display: flex;
+		flex-direction: row;
+	}
+.contact_data{
+		width: 100%;
+
+	@include tablet{
+		width: 50%;
+	}
+
+	h3{
+		font-size: 3em;
+		padding:20px 20px 30px 0px;
+		color: black;
+
+		@include tablet{
+			
+		}
+	}
+
+		p{
+			padding:10px 10px 10px 0px;
+			font-size: 1.6em;
+
+				@include tablet{
+					font-size: 2em;
+				}
+
+				.fa-phone, .fa-envelope, .fa-facebook{
+					padding-right: 10px;	
+
+					@include tablet{
+						padding-right: 20px;
+					}
+			}
+
+			
+			}
+		}
+	}
+
+
+
+
+.contact {	width: 100%;
+
+			@include tablet{
+				width: 50%;
+			}
+
+			h2{
+				font-size: 3em;
+				padding:20px 20px 20px 0px;
+			}
+
+			.errors{
+			width: 100%;
+			padding-bottom: 20px;
+			font-size: 1.4em;
+			text-transform: capitalize;
+			border: 1px solid grey;
+			border-top: none;
+			text-align: center;
+			font-style: oblique;
+			color: grey;	
+			}
+		
+}
+
+#myForm{
+	width: 100%;
+	padding: 20px 20px 20px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	input,textarea,button,select{
+		display: block;
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+
+
+
+}
