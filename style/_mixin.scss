@@ -19,13 +19,14 @@ $desktop: 1024px;
 
 @keyframes caruzel_1_mobile{
 			0%{	
-				transform:  translateX(0);
+				transform:  translateX(0)
+
 				
 			}
 			50%{
 					transform: translateX(170%) 
 					translateY(50%) 
-					scale(3);
+					scale(2);
 			}
 
 			100%{
@@ -40,7 +41,7 @@ $desktop: 1024px;
 				transform: translateX(0%);		
 			}
 			50%{
-					transform: scale(1.6) translateY(30%);
+					transform: scale(1.5) translateY(50%);
 			}
 
 			100%{
@@ -58,8 +59,8 @@ $desktop: 1024px;
 			}
 			50%{
 					transform: translateX(-170%)
-					translateY(-30%)
-					scale(1.4);
+					translateY(-20%)
+					scale(1.2);
 				
 
 			}

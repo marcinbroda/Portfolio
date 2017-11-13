@@ -1,4 +1,5 @@
 .aboutMe{
+		font-family: lato;
 		padding-top: 20px;
 		margin-bottom:50px;
 }
@@ -26,7 +27,7 @@
 		.accordion_title{
 				font-size: 2em;
 				cursor: pointer;
-				font-family: roboto;
+				font-family: lato;
 				color:black;
 				border: solid grey;
 				padding: 10px;
@@ -34,13 +35,16 @@
 				margin-top: 5px;
 				border-radius: 8px;
 
-				.fa{
+				.fa-times{
 					position: absolute;
 					right: 0px;
 					top: 0px;
 					padding: 13px;
 					background-color: grey;
 					color: #fff;
+				}
+				.active{
+					display: block;
 				}
 		}
 
