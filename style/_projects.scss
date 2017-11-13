@@ -28,10 +28,12 @@
 				
 				@include tablet{
 					.fa-angle-up{
+						display: none;
 						animation: none;
 					}
 
 					&:hover .fa-angle-up{
+						display: block;
 						animation: arrow-go 2s infinite linear;
 					}
 				}
@@ -63,22 +65,22 @@
 
 		.project-last{
 			margin:0 auto;
-			margin-bottom: 50px;
+			margin-bottom: 30px;
 		}
 
 		.arrow{
-			width: 24px;
-			height: 24px;
+			width: 34px;
+			height: 34px;
 			border: 2px solid black;
 			border-radius: 50%;
-			font-size: 2em;
+			font-size: 3em;
 			text-align: center;
-			text-shadow: 0px -5px 0 black, 0 5px 0 black;
+			text-shadow: 0px -7px 0 black, 0 7px 0 black;
 			overflow: hidden;
 			position: absolute;
-			top: 10px;
+			top:0%;
 			left: 50%;
-			transform:translate(-50%);	
+			transform:translateX(-50%) translateY(-50%);	
 			background-color: #fff;
 			z-index: 99;	
 		}
