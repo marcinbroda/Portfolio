@@ -542,6 +542,7 @@ header nav ul a {
   padding: 10px;
   margin-bottom: 5px;
   font-size: 1.6rem;
+  font-family: lato;
 }
 
 #myForm button {
