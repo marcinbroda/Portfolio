@@ -19,7 +19,7 @@ $(document).ready( function () {
 		  }
 
        $('html, body').stop().animate({
-        'scrollTop': $target.offset().top-30
+        'scrollTop': $target.offset().top-10
    		 }, 900, 'swing', function () {
     	
 			});
